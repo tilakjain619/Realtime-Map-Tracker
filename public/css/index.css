@@ -1,0 +1,26 @@
+/* CSS reset */
+*, *:after, *:before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+button{
+    cursor: pointer;
+    outline: none;
+}
+input, textarea, select, option{
+    outline: none;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+li{
+    list-style: none;
+}
+/* ------------ */
+#map{
+    width: 100%;
+    height: 100vh;
+}
