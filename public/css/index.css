@@ -1,26 +1,59 @@
 /* CSS reset */
-*, *:after, *:before{
+*,
+*:after,
+*:before {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-button{
+
+button {
     cursor: pointer;
     outline: none;
 }
-input, textarea, select, option{
+
+input,
+textarea,
+select,
+option {
     outline: none;
 }
-a{
+
+a {
     text-decoration: none;
     color: unset;
 }
-li{
+
+li {
     list-style: none;
 }
+
 /* ------------ */
-#map{
+#map {
     width: 100%;
     height: 100vh;
+}
+
+#my-location-btn {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    z-index: 1000;
+}
+input[type="text"]{
+    padding: 4px 5px;
+    border-radius: 4px;
+    outline: none;
+}
+.leaflet-control-geocoder-icon{
+    display: none;
+}
+.leaflet-control-geocoder {
+    background-color: white;
+    padding: 2px;
+}
+.leaflet-control-geocoder-alternatives-minimized, .leaflet-control-geocoder-form-no-error{
+    background-color: white;
+    padding: 2px;
 }
