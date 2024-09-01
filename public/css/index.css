@@ -35,7 +35,7 @@ li {
     height: 100vh;
 }
 
-#my-location-btn {
+.option-container {
     position: absolute;
     bottom: 20px;
     right: 10px;
